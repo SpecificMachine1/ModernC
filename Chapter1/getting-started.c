@@ -1,11 +1,13 @@
 /* will try to come up with more useful comments later */
-#include <stdlib.h>
-#include <stdio.h>
+#include <stdlib.h> //source for size_t, EXIT_SUCCESS
+#include <stdio.h>  //source for printf
 
 /* main = what the program does */
 int main(int argc, [[maybe_unused]] char* argv[argc+1]) {
 	//Declarations
-	double A[5] = {
+	//type var  = value or
+	//type *var = location
+	double A[5] = {    //an array
 		[0] = 9.0,
 		[1] = 2.9,
 		[4] = 3.E+25,
