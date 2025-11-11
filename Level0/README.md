@@ -1,6 +1,7 @@
-#Takeaways:
+# Takeaways:
 - C is imperative, compiled, and portable
 - Identifiers have to be declared (typed)
+- *commas separate arguments, list items, semicolons end statements
 - Identifiers may have several (consistent) declarations
 - Declarations are scoped
 - Declarations specify identifiers, definitions specify objects
