@@ -56,5 +56,19 @@ Control
   } while (condition);
 ```
 **break** stops the loop immediately
+
 **continue** skip the rest of the loop body, and re-evaluate the condition, and continue from the start if true
 
+**argc** first parameter to main, argument count, is a count of the arguments on the command line, integer
+
+**argv** second parameter to main, argument vector, an array of character pointers (or an array ofstrings)
+
+I have seen one or two places "the last element of argv is NULL" which may explain why these programs have argv[argc+1], I am still confused about that 
+
+If main doesn't need the command line it can be like:
+
+```c
+int main(void) {
+    main-block;
+    }
+```
