@@ -5,8 +5,8 @@
 /* lower and upper iteration limits centered around 1.0 */
 constexpr double eps1m01 = 1.0 - 0x1P-01;
 constexpr double eps1p01 = 1.0 + 0x1P-01;
-constexpr double eps1m24 = 1.0 - 0x1P-24;
-constexpr double eps1p24 = 1.0 + 0x1P-24;
+constexpr double eps1m24 = 1.0 - 0x1P-12;
+constexpr double eps1p24 = 1.0 + 0x1P-12;
 
 
 int main(int argc, char* argv[argc+1]) {
