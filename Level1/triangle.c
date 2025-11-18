@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[argc+1]) {
+	//tested with no command line, gives seg fault
 	int const count = strtol(argv[1], nullptr, 10);
 	switch (count) {
 		default:puts("+++ ..... +++");
